@@ -289,6 +289,8 @@ html{
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
+    width: 70%;
+    height: auto;
 }
 
 #montre1{
@@ -335,6 +337,8 @@ html{
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
+    width: 70%;
+    height: auto;
 }
 
 #montre2{
@@ -380,6 +384,8 @@ html{
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
+    width: 70%;
+    height: auto;
 }
 
 #montre3{
