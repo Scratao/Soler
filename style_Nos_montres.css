@@ -134,6 +134,7 @@ h1{
     font-size: 36px;
     line-height: 44px;
     vertical-align: middle;
+    text-decoration: none;
     
     color: #000000;  
     text-decoration: none; 
@@ -172,6 +173,7 @@ h1{
     font-size: 36px;
     line-height: 44px;
     vertical-align: middle;
+    text-decoration: none;
     
     color: #000000;
     text-decoration: none; 
@@ -210,6 +212,7 @@ h1{
     font-size: 36px;
     line-height: 44px;
     vertical-align: middle;
+    text-decoration: none;
     
     color: #000000;
     text-decoration: none; 
@@ -279,6 +282,15 @@ html{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.mont{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
 #montre1{
     position: absolute;
     box-sizing: border-box;
@@ -315,6 +327,16 @@ html{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+.aiguille{
+    position: absolute;
+    top: 180%;
+    right: 5%;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
 #montre2{
     position: absolute;
     box-sizing: border-box;
@@ -349,6 +371,15 @@ html{
     left: 5%;
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.diable{
+    position: absolute;
+    top: 280%;
+    left: 5%;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
 }
 
 #montre3{
@@ -388,11 +419,3 @@ html{
 }
 
 
-#alps{
-    position: absolute;
-    top: 11%;
-    left: 0%;
-    width:100%;
-    height: auto;
-    background-image: url('https://cvws.icloud-content.com/B/AYwJ3kHgwxW6kPbd_TZ7OK3F1nxfAZOSEBncj0AOHUzs_KkOhgKHaxrJ/Sans+titre.png?o=AmuEdGXI4dgqVnfhoetXjGUGhCjX4RNAZh4bv-2UafaO&v=1&x=3&a=CAog2zo-9Ck12PbnkenOMvM7amFDwoJPFpHf8mEuZbXkDG8SbxCJqbP_5DAYiYaPgeUwIgEAUgTF1nxfWgSHaxrJaidoYRRN5R4cmI9CXAuXdGSJrGgEKQTeMv9ng-jsLQuheYZJ100hzQdyJ2Ty3AmMq4qo-vgBivx_4zO4kXmTf2nv35d_YuUtNRoNBtS0XdypLg&e=1676381766&fl=&r=c2394f45-9968-46ae-ad09-036990fc9142-1&k=CFCb-pU_lzo4vM5JhtmOcA&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=131&s=bW11_LVnhHfzl4lSWyoP-cYE_aQ&cd=i');
-}
