@@ -285,11 +285,11 @@ html{
 .mont{
     position: absolute;
     top: 80%;
-    left: 5%;
+    left: 50%;
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
-    width: 70%;
+    width: 40%;
     height: auto;
 }
 
@@ -333,11 +333,11 @@ html{
 .aiguille{
     position: absolute;
     top: 180%;
-    right: 5%;
+    right: 50%;
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
-    width: 70%;
+    width: 40%;
     height: auto;
 }
 
@@ -380,11 +380,11 @@ html{
 .diable{
     position: absolute;
     top: 280%;
-    left: 5%;
+    left: 50%;
     font-size: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
-    width: 70%;
+    width: 40%;
     height: auto;
 }
 
