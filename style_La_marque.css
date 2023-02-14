@@ -1,0 +1,346 @@
+body{
+    background-color: #f8f5f2;
+    color: #000000;
+}
+
+header{
+    background-color: #078080;
+    stroke-width: 50px;
+    color: #078080;
+    text-align: center;
+}
+
+h1{
+    position: absolute;
+    width: 60%;
+    height: auto;
+    left: 5%;
+    top: 10%;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: light;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 167px;
+    
+    color: #000000;
+
+    z-index: 1;
+}
+
+.element1{
+    position: fixed;
+    width: 117px;
+    height: 28px;
+    left: calc(50% - 117px/2 - 213.5px);
+    top: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+
+    z-index: 2;
+}
+
+.element2{
+    position: fixed;
+    width: 200px;
+    height: 40px;
+    left: 42.5%;
+    top: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+
+    z-index: 2;
+}
+.element3{
+    position: fixed;
+    width: 110px;
+    height: 26px;
+    left: calc(50% - 110px/2 + 210px);
+    top: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+
+    z-index: 2;
+}
+
+.nav2{
+    position: fixed;
+    width: 200%;
+    height: 11%;
+    left: calc(50% - 1920px/2);
+    top: 0px;
+    
+    background: #078080;
+    background-color: #078080;
+    z-index: 10000;
+}
+
+#MonPanier{
+    position: fixed;
+    width: 3.5%;
+    height: auto;
+    right: 100px;
+    top: 23px;
+
+    z-index: 1;
+}
+
+#Home{
+    position: fixed;
+    width: 4%;
+    height: auto;
+    left: 28px;
+    top: 17px;
+}
+
+#Profil{
+    position: fixed;
+    width: 4%;
+    height: auto;
+    right: 30px;
+    top: 18px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 2500px;
+    
+    background: #078080;
+}
+
+.copy{
+    position: absolute;
+    top: -2px;
+    left: 41.5%;
+
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+#mon_ancre1{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+    font-size: 56px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.p1{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 80%;
+    height: auto;
+
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+#mon_ancre2{
+    position: absolute;
+    top: 140%;
+    left: 5%;
+
+    font-size: 56px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+h3{
+    position: absolute;
+    top: 150%;
+    left: 5%;
+
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+h4{
+    position: absolute;
+    top: 165%;
+    left: 5%;
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150;
+}
+
+.p2{
+    position: absolute;
+    top: 175%;
+    left: 5%;
+
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.lien1{
+    position: absolute;
+    top: 185%;
+    left: 15%;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(251, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lien1:hover{
+    position: absolute;
+    top: 185%;
+    left: 15%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 119, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 7%;
+    vertical-align: middle;
+    font-style: bold;
+
+}
+
+#mon_ancre3{
+    position: absolute;
+    top: 195%;
+    left: 5%;
+
+    font-size: 56px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.p3{
+    position: absolute;
+    top: 210%;
+    left: 5%;
+
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+#carte{
+    box-sizing: border-box;
+    position: absolute;
+    top: 230%;
+    left: 20%;
+
+    width: 33%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#carte:hover{
+    box-sizing: border-box;
+    position: absolute;
+    top: 230%;
+    left: 20%;
+    opacity: 70%;
+
+    width: 33%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#mon_ancre4{
+    position: absolute;
+    top: 280%;
+    left: 5%;
+
+    font-size: 56px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.p4{
+    position: absolute;
+    top: 295%;
+    left: 5%;
+    width: 90%;
+
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+#insta{
+    position: absolute;
+    top: 310%;
+    left: 15%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 119, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    width: 5%;
+    height: auto;
+}
+
+#facebook{
+    position: absolute;
+    top: 310%;
+    left: 25%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 119, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    width: 5%;
+    height: auto;
+}
+
+#fleche{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 4%;
+    height: auto;
+    z-index: 100000;
+}

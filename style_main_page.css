@@ -1,0 +1,282 @@
+body{
+    background-color: #f8f5f2;
+    color: #000000;
+}
+
+header{
+    background-color: #078080;
+    stroke-width: 50px;
+    color: #078080;
+    text-align: center;
+}
+
+.element1{
+    position: fixed;
+    width: auto;
+    height: auto;
+    left: calc(50% - 117px/2 - 213.5px);
+    top: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+
+    z-index: 2;
+}
+
+.element2{
+    position: fixed;
+    width: 200px;
+    height: 40px;
+    left: 42.5%;
+    top: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+
+    z-index: 2;
+}
+
+.element3{
+    position: fixed;
+    width: auto;
+    height: auto;
+    left: calc(50% - 110px/2 + 210px);
+    top: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+
+    z-index: 2;
+}
+
+nav{
+    position: fixed;
+    width: 200%;
+    height: 11%;
+    left: calc(50% - 1920px/2);
+    top: 0px;
+    
+    background: #078080;
+    background-color: #078080;
+    z-index: 1000;
+}
+
+.paragraphe1{
+    position: absolute;
+    margin: auto;
+    top: 120%;
+    left: 17%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 49px;
+
+    width: 70%;
+
+    text-align: left;
+    
+    color: #000000;
+
+    z-index: 1;
+}
+
+.gamme{
+    position: absolute;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align-last: center;
+    top: 230%;
+    left: 35%;
+    color: #000000;
+}
+
+.paragraphe2{
+    position: absolute;
+    width: 95px;
+    height: 32px;
+    left: 46.5%;
+    top: 88%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    
+    color: #000000;
+
+    z-index: 1;
+}
+
+#découvrir_scroll{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 48.5%;
+    top: 92%;
+
+    animation: ease-in-out;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+
+    z-index: 1;
+}
+
+#MonPanier{
+    position: fixed;
+    width: 3.5%;
+    height: auto;
+    right: 100px;
+    top: 23px;
+
+    z-index: 1;
+}
+
+#découvrir_scroll{
+    display: flex;
+
+}
+
+#Photo1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 30%;
+    height: auto;
+    right: 10%;
+    top: 30%;
+    
+    border: 2px solid #000000;
+
+    z-index: 1;
+}
+
+#Home{
+    position: fixed;
+    width: 4%;
+    height: auto;
+    left: 28px;
+    top: 17px;
+}
+
+#Profil{
+    position: fixed;
+    width: 4%;
+    height: auto;
+    right: 30px;
+    top: 18px;
+}
+
+h1 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 10%;
+    top: 27%;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: light;
+    font-weight: 700;
+    font-size: 800%;
+    line-height: 167px;
+    
+    color: #000000;
+
+    z-index: 1;
+}
+
+#carousel{
+    box-sizing: border-box;
+
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    left: 0.09%;
+    top: 150%;
+
+    z-index: 1;
+}
+
+h2{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    left: 17%;
+    top: 105%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 65px;
+    text-decoration-line: underline;
+    
+    color: #000000;
+
+    z-index: 1;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    stroke: #232323;
+    border-radius: 5%;
+    text-align: center;
+}    
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 250%;
+    
+    background: #078080;
+}
+
+.copy{
+    position: absolute;
+    top: -2px;
+    left: 43.5%;
+
+    font-size: 90%;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+#fleche{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 4%;
+    height: auto;
+    z-index: 100000;
+}

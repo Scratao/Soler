@@ -1,0 +1,198 @@
+body{
+    background-color: #f8f5f2;
+    color: #000000;
+}
+
+header{
+    background-color: #078080;
+    stroke-width: 50px;
+    color: #078080;
+    text-align: center;
+}
+
+.element1{
+    position: fixed;
+    width: 117px;
+    height: 28px;
+    left: calc(50% - 117px/2 - 213.5px);
+    top: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+
+    z-index: 2;
+}
+
+.element2{
+    position: fixed;
+    width: 200px;
+    height: 40px;
+    left: 42.5%;
+    top: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+
+    z-index: 2;
+}
+
+.element3{
+    position: fixed;
+    width: 110px;
+    height: 26px;
+    left: calc(50% - 110px/2 + 210px);
+    top: 25px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+
+    z-index: 2;
+}
+
+nav{
+    position: fixed;
+    width: 200%;
+    height: 11%;
+    left: calc(50% - 1920px/2);
+    top: 0px;
+    z-index: 1000;
+    
+    background: #078080;
+    background-color: #078080;
+}
+
+#MonPanier{
+    position: fixed;
+    width: 39px;
+    height: 39px;
+    right: 100px;
+    top: 23px;
+
+    z-index: 1;
+}
+
+#Home{
+    position: fixed;
+    width: 59px;
+    height: 54px;
+    left: 28px;
+    top: 17px;
+
+}
+
+p{
+    position: absolute;
+    width: 50%;
+    left: 5%;
+    top: 49%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 49px;
+
+    text-align: left;
+    
+    color: #000000;
+
+    z-index: 1;
+}
+
+#Profil{
+    position: fixed;
+    width: 61px;
+    height: 51px;
+    right: 30px;
+    top: 18px;
+}
+
+h1{
+    position: absolute;
+    width: 90%;
+    height: 123px;
+    left: 5%;
+    top: 10%;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: light;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 167px;
+    
+    color: #000000;
+
+    z-index: 1;
+}
+
+h2{
+    position: absolute;
+    width: 750px;
+    height: 100px;
+    left: 5%;
+    top: 30%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: light;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 167px;
+    
+    color: #000000;
+}
+
+#bourse{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 25%;
+    height: 30%;
+    right: 10%;
+    top: 64%;
+    
+    border-radius: 20px;
+    border: 2px solid #000000;
+
+    z-index: 1;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 1150px;
+    
+    background: #078080;
+}
+
+.copy{
+    position: absolute;
+    top: -20px;
+    left: 26.5%;
+
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
